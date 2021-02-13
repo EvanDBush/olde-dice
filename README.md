@@ -5,8 +5,6 @@ Step 1: js- Prompt amount of dice. Output that many random numbers (1,6).
 
 
 Step 2: html- Display random numbers in html. Add picture of dice to each number.
-        
-        document.queryselector("").innerHTML = 
 
 
 Step 3: js- Create Roll button.
