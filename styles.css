@@ -1,0 +1,62 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffe4a3;
+    background-color: #603e21;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.dice {
+    margin: 15px 15px 15px 15px;
+    border: thick solid #241401;
+    border-radius: 15px;
+    
+    
+}
+
+.dice:hover {
+    border: thick solid #ffbc85;
+    transform: scale(1.25);
+}
+
+.btn {
+    background: #603e21;
+    color: #ffbc85;
+    font-size: 30px;
+    font-weight: bold;	
+    border: medium solid #ffbc85;
+    border-radius: 15px;
+    padding: 15px 15px 15px 15px;
+}
+
+.btn:hover {
+    background: #ffbc85;
+    color: #603e21;
+}
+
+
+
+
+.food {
+    color: #241401;	
+    color: #2d1b08;
+    color: #3c220c;	
+    color: #4f3017;	
+    color: #603e21;	
+    color: #ffbc85;
+    color: #f8d6ba;
+}
