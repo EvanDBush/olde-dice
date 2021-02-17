@@ -1,3 +1,11 @@
+
+var randomArray = []
+var heldDice = []
+
+const hold = document.querySelector("div" + 'class= "dice"') 
+
+hold.addEventListener('click', toggle)
+
 function rollDice () {
     var randomArray = [] 
 for (let i=0; i < 6; i++) {
@@ -6,9 +14,10 @@ for (let i=0; i < 6; i++) {
 
     document.querySelector('.face' + i).setAttribute("src","img/dice" + randomArray [i] + ".svg");
 }
-
-
 }
+
+    
+
 
 
 // old function rollDice () {

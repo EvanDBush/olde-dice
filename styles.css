@@ -1,8 +1,15 @@
 
+/* Type Selectors ------------------------------ */
+
+html {
+    background: linear-gradient(to bottom, #603e21, #603e21 60%, #241401 90%);
+        /* Why does this repeat?  */
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffe4a3;
-    background-color: #603e21;
+    background: linear-gradient(to bottom, #603e21, #603e21 60%, #241401 90%);
     box-sizing: border-box;
 }
 
@@ -15,6 +22,10 @@ h2 {
     font-size: 2em;
 }
 
+
+
+/* Class Selectors --------------------------- */
+
 .container {
     display:flex;
     flex-wrap: wrap;
@@ -25,14 +36,8 @@ h2 {
     margin: 15px 15px 15px 15px;
     border: thick solid #241401;
     border-radius: 15px;
-    size: 30%;
-    flex: content;
     
-}
-
-.dice:hover {
-    border: thick solid #ffbc85;
-    transform: scale(1.1);
+    
 }
 
 .btn {
@@ -45,13 +50,30 @@ h2 {
     padding: 15px 15px 15px 15px;
 }
 
+/* Pseudo-class Selectors ------------------------------- */
+
+.dice:active {
+    border: thick solid #ffe4a3;
+    transform: scale(1.25);
+}
+
 .btn:hover {
-    background: #ffbc85;
+    background: #ffe4a3;
     color: #603e21;
+}
+
+.dice:hover {
+    border: thick solid #ffbc85;
+    transform: scale(1.1);
 }
 
 
 
+/* Media Queries -------------------------------------- */
+
+
+
+/* Color Pallet --------------------------------------- */
 
 .food {
     color: #241401;	
