@@ -1,4 +1,4 @@
-var randomArray = []
+var randomArray = [];
 
 function rollDice () {
     var randomArray = [] 
@@ -8,9 +8,23 @@ for (let i=0; i < 6; i++) {
 
     document.querySelector('.face' + i).setAttribute("src","img/dice" + randomArray [i] + ".svg");
 }
-}
+};
 
 
+
+// Attempt 3
+
+// const highlight = document.querySelector('.highlight');
+// const dice = document.querySelector('.dice');
+
+// function hold () {
+//     if (dice) {
+//         dice = dice.setAttribute("class", "highlight");
+//     };
+//     if (highlight) {
+//         highlight = highlight.setAttribute("class", "dice");
+//     };
+// };
 
 
 

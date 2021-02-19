@@ -41,7 +41,7 @@ h2 {
     border-radius: 15px;
 }
 
-.hold {
+.highlight {
     margin: 15px 15px 15px 15px;
     border: thick solid #ffe4a3;
     border-radius: 15px;
@@ -59,10 +59,6 @@ h2 {
 
 /* Pseudo-class Selectors ------------------------------- */
 
-/* .dice:active {
-    border: thick solid #ffe4a3;
-    transform: scale(1.25);
-} */
 
 .btn:hover {
     background: #ffe4a3;
