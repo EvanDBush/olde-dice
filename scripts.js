@@ -13,6 +13,20 @@ for (let i=0; i < 6; i++) {
 
 
 
+//attempt 4
+
+// function holdDice (dice, highlight) {
+//     var dice = document.querySelector('.dice');
+//     var highlight = document.querySelector('.highlight');
+
+//     if (dice) {
+//         dice =  dice.setAttribute("class", "highlight");
+// }   if (highlight) {
+//         highlight = highlight.setAttribute("class", "dice");
+// }
+// }
+
+
 // attmpt 3
 // var highlight = document.querySelector('.highlight');
 // var dice = document.querySelector('.dice');
@@ -25,8 +39,6 @@ for (let i=0; i < 6; i++) {
 //         highlight = highlight.setAttribute("class", "dice");
 //     };
 // };
-
-
 
 
 // attempt 2
