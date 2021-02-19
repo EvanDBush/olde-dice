@@ -11,20 +11,16 @@ for (let i=0; i < 6; i++) {
 };
 
 
+function holdDice (dice, highlight) {
+    var dice = document.querySelector('.dice');
+    var highlight = document.querySelector('.highlight');
 
-
-//attempt 4
-
-// function holdDice (dice, highlight) {
-//     var dice = document.querySelector('.dice');
-//     var highlight = document.querySelector('.highlight');
-
-//     if (dice) {
-//         dice =  dice.setAttribute("class", "highlight");
-// }   if (highlight) {
-//         highlight = highlight.setAttribute("class", "dice");
-// }
-// }
+    if (dice) {
+        dice =  dice.setAttribute("class", "highlight");
+}   if (highlight) {
+        highlight = highlight.setAttribute("class", "dice");
+}
+};
 
 
 // attmpt 3
