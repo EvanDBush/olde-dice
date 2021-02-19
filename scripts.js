@@ -12,12 +12,12 @@ for (let i=0; i < 6; i++) {
 
 
 
-// Attempt 3
 
-// const highlight = document.querySelector('.highlight');
-// const dice = document.querySelector('.dice');
+// attmpt 3
+// var highlight = document.querySelector('.highlight');
+// var dice = document.querySelector('.dice');
 
-// function hold () {
+// function hold (dice, highlight) {
 //     if (dice) {
 //         dice = dice.setAttribute("class", "highlight");
 //     };
