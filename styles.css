@@ -2,7 +2,7 @@
 /* Type Selectors ------------------------------ */
 
 html {
-    background: linear-gradient(to bottom, #603e21, #603e21 60%, #241401 90%);
+    background: linear-gradient(to bottom, #603e21, #603e21 65%, #241401 90%);
         /* Why does this repeat?  */
 }
 
